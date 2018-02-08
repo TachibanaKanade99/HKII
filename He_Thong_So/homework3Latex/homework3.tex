@@ -1,0 +1,193 @@
+\documentclass[12pt]{article}
+\usepackage{pictex,amsmath,amsthm,amssymb,verbatim}
+\usepackage{amsbsy,fullpage,fancyhdr,verbatim}
+\usepackage{graphics,graphicx}
+
+\setlength{\voffset}{-0.25in}
+\setlength{\headsep}{+0.5in}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgffor}
+\usepackage{arrayjob}
+
+
+\usetikzlibrary{calc} % Coordinate calculations
+
+
+\newenvironment{mykmap}[2]
+{
+    \begin{center}
+        \begin{tikzpicture}
+            \providecommand{\nrows}{#1};
+            \providecommand{\ncols}{#2};
+
+            \foreach \y in {0, 1, ..., \nrows} {
+                \pgfmathsetmacro{\ly}{\y}
+                \draw (\ly, 0) -- (\ly, -\ncols);
+            }
+            \foreach \x in {0, 1, ..., \ncols} {
+                \pgfmathsetmacro{\lx}{-1 * \x}
+                \draw (0, \lx) -- (\nrows, \lx);
+            }
+}
+{
+        \end{tikzpicture}
+    \end{center}
+}
+
+\newcommand{\kmapvars}[2]{
+    \newarray\vervars
+    \readarray{vervars}{#1}
+    \newarray\horvars
+    \readarray{horvars}{#2}
+
+    \foreach \row in {1, 2, ..., \nrows} {
+        \pgfmathsetmacro{\vy}{(-1) * (\row - 0.5)};
+        \pgfmathsetmacro{\i}{\row};
+        \draw (-0.7, \vy) node{\vervars(\i)};
+    }
+
+    \foreach \col in {1, 2, ..., \ncols} {
+        \pgfmathsetmacro{\vx}{(\col - 0.5};
+        \pgfmathsetmacro{\i}{\col};
+        \draw (\vx, 0.5) node{\horvars(\i)};
+    }
+}
+
+
+\newcommand{\kmapvalues}[1]
+{
+    \newarray\elems
+    \readarray{elems}{#1}
+    \dataheight=\ncols
+    
+    \foreach \y in {1, 2, ..., \nrows} {
+        \foreach \x in {1, 2, ..., \ncols} {
+            \pgfmathsetmacro{\ex}{\x - 0.55};
+            \pgfmathsetmacro{\ey}{-1 * (\y - 0.5)};
+            \pgfmathsetmacro{\i}{\y};
+            \pgfmathsetmacro{\j}{\x};
+            \draw (\ex, \ey) node{\elems(\i, \j)};
+        }
+    }
+}
+
+\newcommand{\kmapisolatedloop}[3]
+{
+    \draw[rounded corners=4pt, opacity=0.2, fill=#3]  ($(#2, -#1) + (-0.8, 0.8)$) rectangle ($(#2, -#1) + (-0.2, 0.2)$);
+}
+
+\newcommand{\kmapinloop}[5]
+{
+    \draw[rounded corners=4pt, opacity=0.2, fill=#5]  ($(#2, -#1) + (-0.7, 0.7)$) rectangle ($(#4, -#3) + (-0.3, 0.3)$);
+}
+
+\newcommand{\kmaptopbotloop}[5]
+{
+    \draw[opacity=0.2, fill=#5]  ($(#2, -#1) + (-0.7, +0.3)$) rectangle ($(#4, 0.1) + (-0.3, 0)$);
+    \draw[opacity=0.2, fill=#5]  ($(#2, -\nrows) + (-0.7, 0.7)$) rectangle ($(#4, -#3) + (-0.3, -0.1)$);
+}
+
+\newcommand{\kmapleftrightloop}[5]
+{
+    \draw[opacity=0.2, fill=#5]  ($(-0.1, -#1) + (0, +0.7)$) rectangle ($(#2, -#3) + (-0.3, 0.3)$);
+    \draw[opacity=0.2, fill=#5]  ($(#4, -#1) + (-0.7, +0.7)$) rectangle ($(\ncols, -#3) + (0.1, 0.3)$);
+}
+
+\newcommand{\kmapcornerloop}[9]
+{
+    \draw[opacity=0.2, fill=#9] ($(#2, -#1) + (-0.3, +0.3)$) rectangle (-0.1, 0.1);
+    \draw[opacity=0.2, fill=#9] ($(#4, -#3) + (-0.7, +0.3)$) rectangle ($(\ncols, 0) + (0.1, 0.1)$);
+    \draw[opacity=0.2, fill=#9] ($(#6, -#5) + (-0.3, +0.7)$) rectangle ($(0, -\nrows) + (-0.1, -0.1)$);
+    \draw[opacity=0.2, fill=#9] ($(#8, -#7) + (-0.7, +0.7)$) rectangle ($(\ncols, -\nrows) + (0.1, -0.1)$);
+}
+
+
+\begin{document}
+\begin{enumerate}
+    %1
+    \item F(A,B,C,D) = $\displaystyle \Pi (1,5,6,7,9,11,15). D(0,2,3,8,14)$
+    \begin{mykmap}{4}{4}
+        \kmapvars
+            {$\bar{A}\bar{B}$ & $\bar{A} B$ & $AB$ & $A \bar{B}$}
+            {$\bar{C}\bar{D}$ & $\bar{C} D$ & $CD$ & $C \bar{D}$};
+
+        \kmapvalues{
+            x & 0 & x & x &
+            1 & 0 & 0 & 0 &
+            1 & 1 & 0 & x &
+            x & 0 & 0 & 1
+        };
+
+        \kmapinloop{1}{3}{2}{4}{red};
+        \kmapinloop{1}{3}{4}{3}{red};
+        \kmapinloop{1}{2}{2}{3}{blue};
+        \kmapinloop{4}{2}{4}{3}{green};
+    \end{mykmap}
+    \bigbreak
+    X = (A + $\bar{D}$)(A + $\bar{C}$)($\bar{C} + \bar{D}$)($\bar{A} + B + \bar{D}$)
+    %2
+    \item F(D,C,B,A) = $\Pi M (0,3,6,9,11,13,14). D(5,7,10,12)$
+    \begin{mykmap}{4}{4}
+        \kmapvars
+            {$\bar{D}\bar{C}$ & $\bar{D} C$ & $DC$ & $D \bar{C}$}
+            {$\bar{B}\bar{A}$ & $\bar{B} A$ & $BA$ & $B \bar{A}$};
+
+        \kmapvalues{
+            0 & 1 & 0 & 1 &
+            1 & x & x & 0 &
+            x & 0 & 1 & 0 &
+            1 & 0 & 0 & x
+        };
+
+        \kmapisolatedloop{1}{1}{blue};
+        \kmapinloop{3}{2}{4}{2}{red};
+        \kmapinloop{2}{4}{3}{4}{red};
+        \kmaptopbotloop{1}{3}{4}{3}{green};
+
+        %\kmapleftrightloop{2}{1}{3}{4}{blue};
+        %\kmapcornerloop{1}{1}{1}{4}{4}{1}{4}{4}{green};
+    \end{mykmap}
+        X = (A + B + C + D)($\bar{A}$ + B + $\bar{D}$)($\bar{A}$ + $\bar{B}$ + C)(A + $\bar{B}$ + $\bar{C}$)
+        %3
+         \item F(D,C,B,A) = $\displaystyle \sum (0,1,4,6,10,14) + d(5,7,8,9,11,12,15)$
+    \begin{mykmap}{4}{4}
+        \kmapvars
+            {$\bar{D}\bar{C}$ & $\bar{D} C$ & $DC$ & $D \bar{C}$}
+            {$\bar{B}\bar{A}$ & $\bar{B} A$ & $BA$ & $B \bar{A}$};
+
+        \kmapvalues{
+            1 & 1 & 0 & 0 &
+            1 & x & x & 1 &
+            x & 0 & x & 1 &
+            x & x & x & 1
+        };
+
+        %\kmaptopbotloop{1}{1}{1}{2}{blue};
+        \kmapinloop{1}{1}{2}{2}{blue};  
+        \kmapinloop{2}{3}{3}{4}{red};
+        \kmapinloop{4}{1}{4}{4}{green};
+    \end{mykmap}
+    X = $\bar{D} \bar{B}$ + $\bar{C} D$ + $CB$
+    %4
+    \item F(E,D,C,B,A) = $\displaystyle \sum m (1,3,10,14,21,26,28,30) + d(5,12,17,29)$
+    \begin{itemize}
+        \item Gray Code Method:
+    \begin{mykmap}{9}{4}
+        \kmapvars
+            {$\bar{E}\bar{D}$ & $\bar{E} D$ & $ED$ & $E \bar{D}$}
+            {$\bar{C} \bar{B} \bar{A}$ & $\bar{C} \bar{B} A$ & $\bar{C} BA$ & $\bar{C} B \bar{A}$ & & $CB \bar{A}$ & $CBA$ & $C \bar{B} A$ & $C \bar{B} \bar{A}$};
+        \kmapvalues{
+            0 & 1 & 1 & 0 & & 0 & 0 & x & 0 &
+            0 & 0 & 0 & 1 & & 1 & 0 & 0 & x &
+            0 & 0 & 0 & 1 & & 1 & 0 & x & 1 &
+            0 & x & 0 & 0 & & 0 & 0 & 1 & 0
+        };
+
+    \end{mykmap}
+\end{itemize}
+\end{enumerate}
+\end{document}
