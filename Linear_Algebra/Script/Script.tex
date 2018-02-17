@@ -1,0 +1,192 @@
+\documentclass[12pt]{article}
+\usepackage{pictex,amsmath,amssymb,verbatim,amsbsy,amsfonts,amsthm}
+\usepackage{graphics,graphicx}
+\usepackage{cases}
+
+\setlength{\voffset}{-0.25in}
+\setlength{\headsep}{+0.5in}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+
+\usepackage{fullpage}
+\usepackage{fancyhdr}
+\usepackage{multicol,multirow}
+
+\def\vu{\mathbf{u}}
+\def\vv{\mathbf{v}}
+\def\vw{\mathbf{w}}
+\def\vb{\mathbf{b}}
+\def\vs{\mathbf{s}}
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{mdframed}
+\usepackage[utf8]{vietnam}
+
+\newmdenv[linecolor=blue,skipabove=\topsep,skipbelow=\topsep,leftmargin=5pt,rightmargin=-5pt,innerleftmargin=5pt,innerrightmargin=5pt]{mybox}
+\begin{document}
+\begin{center}
+\textbf{ĐẠI SỐ TUYẾN TÍNH}\\
+(Linear Algebra)
+\end{center}
+\section{Matrix Algebra}
+\subsection{Definition}
+- A $m \times n$ matrix is a table of numbers that contains in m rows and n columns
+\begin{center}
+$\begin{pmatrix}
+	a_{11} & a_{12} & a_{13} & a_{1n} \\
+	a_{21} & a_{22} & a_{23} & a_{2n} \\
+	a_{n1} & a_{n2} & a_{n3} & a_{nn}
+\end{pmatrix}$
+= $(a_{ij})_{m \times n}$
+\end{center}
+\subsection{Definition}
+- If $a_{ij}$ = 0, $\forall i,j$, then A is called a zero matrix and is denoted by 0
+\subsection{Definition}
+Let A = $(a_{ij})_{m \times n}$:\\
+- A matrix A that is formed by columns is called a transpose of A\\
+Ex:
+$\begin{pmatrix}
+	2 & -1 & 3 \\
+	4 &  7 & 8
+\end{pmatrix}$
+=
+$\begin{pmatrix}
+	 2 & 4 \\
+	-1 & 7 \\
+	 3 & 8
+\end{pmatrix}$
+\subsection{Definition}
+- If the number of rows and the number of columns equal, then the matrix is called a square matric of order \\
+- Let A = $(a_{ij})_{m \times n}$ be a square matrix of order n
+\begin{itemize}
+	\item All the elements $a_{11}, a_{22}, \ldots, a_{nn}$ is diagonal of A
+	\item A sum of $a_{11}, a_{22}, \ldots, a_{nn}$ is called a trace of A \\
+	A = 
+	$\begin{pmatrix}
+		\textbf{1} & 1 & 3 \\
+		4 & \textbf{2} & 7 \\
+		2 & 5 & \textbf{6}
+	\end{pmatrix}$
+	\bigbreak
+	Trace(A) = 1 + 2 + 6 = 9.
+	\item If $a_{ij}$ = 0,$\forall i \not = j$, then A is called a diagonal matrix \\
+	D = 
+	$\begin{pmatrix}
+		4 & 0 & 0 \\
+		0 & 2 & 0 \\
+		0 & 0 & -1
+	\end{pmatrix}$
+	is a diagonal matrix
+	\bigbreak
+	\item
+	 $$ 
+	 \mbox{If } a_{ij} =
+	\begin{cases}
+    0, if \mbox{ i} \not = j \\
+    1, if \mbox{ i} =j  
+	\end{cases}
+	$$
+    then A is called an identity matrix
+\end{itemize}
+\section{Matrix Operation}
+\subsection{Equality}
+A = B $\leftrightarrow$
+$$
+\begin{cases}
+\mbox{Same size} \\
+\mbox{Corresponding elements are equal} 
+\end{cases}
+$$
+Ex:
+A = 
+$\begin{pmatrix}
+2 & -1 & 3 \\
+4 & 7 & 8
+\end{pmatrix}$
+\bigbreak
+B = 
+$\begin{pmatrix}
+2 & x & 3 \\
+4 & 7 & 8 
+\end{pmatrix}$
+\bigbreak
+A = B when 
+$$
+\begin{cases}
+x = -1 \\
+y = 4
+\end{cases}
+$$
+\subsection{Sum:}
+$A = (a_{ij})_{m \times n}$\\
+$B = (b_{ij})_{m \times n}$ \\
+$\rightarrow A + B = (a_{ij} + b_{ij})_{m \times n}$ \\
+Ex:\\
+A = 
+$\begin{pmatrix}
+2 & -1 \\
+3 & 4
+\end{pmatrix}$
+\bigbreak
+B = 
+$\begin{pmatrix}
+1 & -3 \\
+0 & 7
+\end{pmatrix}$
+\bigbreak
+$\rightarrow{A + B =}$ 
+$\begin{pmatrix}
+3 & -4 \\
+3 & 11
+\end{pmatrix}$
+\subsection{Multiplication by a number}
+$A = (a_{ij})_{m \times n}$ \\
+$\rightarrow{ \alpha .A = (\alpha a_{ij})_{m \times n}}$ \\
+Ex:\\
+A = 
+$\begin{pmatrix}
+1 & 2 & 1 \\
+3 & 5 & 4
+\end{pmatrix}$
+\bigbreak
+$\rightarrow{3A =}$
+$\begin{pmatrix}
+3 & 6 & 3 \\
+8 & 5 & 12 
+\end{pmatrix}$
+\bigbreak
+\subsection{Matrix Multiplication}
+$A = (a_{ij})_{m \times n}$ ; $B = (b_{ij})_{n \times p}$ \\
+$A \times B = C = (c_{ij})_{m \times p}$ \\
+$c_{ij} = (i^{th} \mbox{ rows of A} ) \times (j^{th} \mbox{ columns of B})$ \\
+$c_{ij} = (a_{i1} \times a_{i2} \times a_{i3} \ldots \times a_{in})$
+$\begin{pmatrix}
+b_{1j} \\
+b_{2j} \\
+\ldots \\
+b_{nj}
+\end{pmatrix}$
+\bigbreak 
+$c_{ij} = a_{i1} b_{1j} + a_{ì2} b_{2j} + \ldots + a_{in} b_{nj}$ \\
+$c_{ij} = \displaystyle \sum_{n}^{k =1} a_{ik} b_{kj}$ \\
+Ex: \\
+A =
+$\begin{pmatrix}
+1 & -1 & 3 \\
+2 & 4 & -2 
+\end{pmatrix}_{2 \times 3}$
+;
+B = 
+$\begin{pmatrix}
+2 & 1 & -1 \\
+5 & 2 & 6 \\
+0 & 1 & -1
+\end{pmatrix}_{3 \times 3}$
+\bigbreak
+$\rightarrow{A \times B = }$
+$\begin{pmatrix}
+c_{11} & c_{12} & c_{13} \\
+c_{21} & c_{22} & c_{23} 
+\end{pmatrix}_{2 \times 3}$
+\end{document}
