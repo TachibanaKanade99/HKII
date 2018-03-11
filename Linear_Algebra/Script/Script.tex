@@ -234,4 +234,134 @@ $I_{n} =
 \vdots & \vdots & \vdots & \ddots & \vdots \\
 0 & 0 & 0 & \ldots & 1
 \end{bmatrix}$
+\subsection{Echelon Form}
+- The first non-zero element of a row from the left is called a leading entry of the row
+\subsection{Definition of Echelon Form}
+\begin{itemize}
+	\item All non-zero rows are above any rows of all zeros
+	\item Each leading entry of row is in a column to the right of the row above it
+\end{itemize}
+\subsection{Elementary row operations:}
+\begin{enumerate}
+	%1
+	\item Scaling: Multiplying all entries in a row by a non-zero constant
+	\begin{center}
+	$r_{i} \rightarrow ar_{i}; a \not = 0$
+	\end{center}
+	%2
+	\item Replacement: Replace one row by the sum of itself and a multiple of another row
+	\begin{center}
+	$r_{i} \rightarrow r_{i} + \beta r; \forall \beta$
+	\end{center}
+	%3
+	\item Intercharging: Intercharge two rows $r_{i} \leftrightarrow r_{j}$
+\end{enumerate}
+\subsection{Subtitution and Elimination}
+Example: \\
+$$
+\begin{cases}
+x + 2y -z = 1  (eq1)\\
+2x + 5y -3z = 3 (eq2)\\
+5x + 12y -7z = 7 (eq3)
+\end{cases}
+$$
+\bigbreak
+We have: \\
+\begin{align*}
+eq2 = 2eq1 \\
+eq3 = 5eq1
+\end{align*}
+\bigbreak
+$\leftrightarrow$
+$$ 
+\begin{cases}
+x + &2y - z = 1 \\
+	&y - z = 1 \\
+	&2y -2z = 2
+\end{cases}
+$$
+\subsection{Argumented Matrix}
+- In linear algebra, an argumeted matrix is a matrix obtained by appending the columns of two given matrices, usually for the purpose of performing the same \textbf{elementary row operation} on each of the given matrices.\\
+- Given matrix A = 
+$\begin{pmatrix}
+1 & 1 & -1 & 2 \\
+2 & 3 & -1 & 4 \\
+3 & 2 & -3 & 7 \\
+-1 & 1 & 2 & -3
+\end{pmatrix}$
+and B = 
+$\begin{pmatrix}
+1 \\
+5 \\
+4 \\
+1
+\end{pmatrix}$
+\bigbreak
+The argumented matrix is C = 
+$\begin{pmatrix}
+\begin{array}{rrrr|r}
+1 & 1 & -1 & 2 & 1 \\
+2 & 3 & -1 & 4 & 5 \\
+3 & 2 & -3 & 7 & 4 \\
+-1 & 1 & 2 & -3 & 1
+\end{array}
+\end{pmatrix}$
+\subsection{Transform matrix in Echelon form}
+\begin{enumerate}
+	%1
+	\item Begin with the left most non-zero column. Select a non-zero entry in the colmn as a pivot, then use elimination
+	$\begin{pmatrix}
+	\begin{array}{rrrr|r}
+	1 & 1 & -1 & 2 & 1 \\
+	0 & 1 & 1 & 0 & 3 \\
+	0 & -1 & 0 & 1 & 1 \\
+	0 & 2 & 1 & 1 & 2
+	\end{array}
+	\end{pmatrix}$
+	\item Then start with the second row and do the same until the last row 
+\end{enumerate}
+\section{Determinant of the square matrix}
+\subsection{Definition 1:}
+- A determinant of the a square matrix is a number that is denoted by \textbf{det(A)} = |A|.\\
+Ex:A = 
+$\begin{pmatrix}
+2 & -1 \\
+3 & 6
+\end{pmatrix}$
+\\
+$\rightarrow det(A) = 
+\begin{vmatrix}
+2 & -1 \\
+3 & 6
+\end{vmatrix} = 2 \times (-6) - 3 \times (-1) = 15$ \\
+\subsection{Cofactor Matrix}
+- Let A be a square matrix and $A_{ij}$ be an element of A: \\
+Cofactor matrix of A is defined by $A_{ij}$, which: \\
+$A_{ij} = (-1)^{i+j} 
+\begin{vmatrix}
+\mbox{ element A by deleting } i^{th} \mbox{ rows and } \\ 
+j^{th} \mbox{ columns }
+\end{vmatrix}$
+\subsection{Definition 2:}
+- Let A be a square matrix of order n: \\
+\begin{itemize}
+	\item Order 1: A = $(a_{11}) \rightarrow det(A) = a_{11}$
+	\item Order 2: A =
+	$\begin{pmatrix}
+	a_{11} & a_{12} \\
+	a_{21} & a_{22}
+	\end{pmatrix}$ \\
+	$\rightarrow$ det(A) = 
+	$\begin{vmatrix}
+	a_{11} & a_{12} \\
+	a_{21} & a_{22}
+	\end{vmatrix} = a_{11} \times a_{22} - a_{21} \times a_{12}$ \\
+	$ = a_{11} \times A_{11} + a_{12} \times A_{12}$ \\
+	\item Order 3: \\
+	det(A) = $a_{11} \times A_{11} + a_{12} \times A_{12} + a_{13} \times A_{13}$
+	\item For order n: \\
+	det(A) = $a_{11} \times A_{11} + a_{12} \times A_{12} + \ldots + a_{1n} \times A_{1n}$
+	\end{itemize}
+	\section{Complex number}
+	\subsection{Definition:} 
 \end{document}
