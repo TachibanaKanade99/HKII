@@ -125,8 +125,8 @@ $1110100110_2 = 0011 \: 1010 \: 0110$ \\
 \includegraphics[scale = 0.75]{hinh6} \\
 - The Flip Flop, abbreviated FF, is a key memory element.\\
 - The output of the Flip Flop is Q and $\bar{Q}$. \\
-- Q is understood to be the normal output, $\bar{Q}$ is always the opposite
-- The most basic circuit can be constructed from either two NAND gates or NOR gates. The NAND gates version is called a \textbf{NAND gate latch}
+- Q is understood to be the normal output, $\bar{Q}$ is always the opposite. \\
+- The most basic circuit can be constructed from either two NAND gates or NOR gates.
 \subsection{NAND gate latch}
 - The inputs are \textbf{set} and \textbf{clear} (reset). \\
 - The inputs are active low, that is, the output will change when the input is pulsed low. \\
@@ -253,5 +253,47 @@ Q = 0 and $\bar{Q}$ = 1
 - $\overline{PRESET} = \overline{CLEAR} = 1$: The asynchronous inputs are inactive and the output depend only on CLK transitions. \\
 - $\overline{PRESET} = 0; \overline{CLEAR} = 1$: The $\overline{PRESET}$ is activated and Q = 1 (no matter what conditions). The CLK inputs cannot affect the FF while $\overline{PRESET}$ = 0. \\
 - $\overline{PRESET} = 1; \overline{CLEAR} = 0$: The $\overline{CLEAR}$ is activated and Q = 0 (no matter what conditions). The CLK inputs cannot affect the FF while $\overline{CLEAR}$ = 0. \\
-- $\overline{PRESET} = \overline{CLEAR} = 0$: Ambiguous response. \\ 
+- $\overline{PRESET} = \overline{CLEAR} = 0$: Ambiguous response. \\
+\section{Fuzzy Logic}
+- Fuzzy Logic (FL) is a method of reasoning that resemble the human reasoning.\\
+- Unlike Combinational Logic which only takes precise input and produce a definite output as 0 and 1. \\
+- Fuzzy Logic provide the wide range of the output that surround the value of 0 and 1.\\
+\begin{itemize}
+	\item To symlify the the result is 1, we can give the output of around 0.75 or 0.9 when the result is 0, the output can be a 0.34 or 0.2.
+	\item The Fuzzy Logic works on the levels of possiblities of inputs to achieve the definite output.
+	\item Fuzzy LOgic is useful for commercial and practical product. \\
+	- It can control machines and consumer products. \\
+	- It may not give a accurate result, but it still a acceptable result. \\
+	- Fuzzy logic help to deal with the uncertainly in engineering.
+\end{itemize}
+\subsection{Fuzzy logic system}
+- It has 4 main parts: \\
+\begin{itemize}
+	\item Fuzzification Module: \\
+	- It transforms the system inputs, from  crisp number to fuzzy set. \\
+	- Crisp number is a single point, ex: 3, 5.5, 6; when fuzzy number is a fuzzy set with different degree os closeness to a given crisp number. \\
+	- It splits the input signal into 5 components: \\
+	\begin{tabular}{|c|c|}
+	\hline
+	LP & x is Large Positive \\
+	\hline
+	MP & x is Medium Positive \\
+	\hline
+	S & x is small \\
+	\hline
+	MN & x is Medium Negative \\
+	\hline
+	LN & x is Large Negative \\
+	\hline
+	\end{tabular}
+	\bigbreak
+	\item Knowledge Base: \\
+	- It stores IF-THEN rules.
+	\item Inference Engine: \\
+	- it simulates the human reasoning process by making fuzzy inference on the inputs and IF-THEN.
+	\item Defuzzification Module: \\
+	- It transforms the fuzzy set obtained by the inference engine into crisp value.
+\end{itemize}
+\includegraphics[scale = 0.8]{hinh16}
+\bigbreak
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  24 MAR 2018 23:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  27 MAR 2018 09:41
 entering extended mode
 **./Slide.tex
 (Slide.tex
@@ -1475,27 +1475,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--257
 
  []
 
-[15 <./hinh15.png>] (Slide.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--261
+
+ []
+
+[15 <./hinh15.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+<hinh16.png, id=89, 449.17813pt x 243.91125pt>
+File: hinh16.png Graphic file (type png)
+ <use hinh16.png>
+Package pdftex.def Info: hinh16.png used on input line 297.
+(pdftex.def)             Requested size: 359.34299pt x 195.12926pt.
+ [16] [17 <./hinh16.png>] (Slide.aux) ) 
 Here is how much of TeX's memory you used:
- 14398 strings out of 493323
- 249430 string characters out of 3139069
+ 14403 strings out of 493323
+ 249499 string characters out of 3139069
  307000 words of memory out of 3000000
- 17767 multiletter control sequences out of 15000+200000
+ 17771 multiletter control sequences out of 15000+200000
  544741 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,35p,10422b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\public\mathabx\dpi600\matha12.pk><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/vntex/vnr/vnti12.pfb>
-Output written on Slide.pdf (15 pages, 499153 bytes).
+ <C:\Users\USER\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\public\mathabx\dpi600\matha12.pk><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/vntex/vnr/vnti12.pfb>
+Output written on Slide.pdf (17 pages, 642229 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
