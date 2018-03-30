@@ -254,6 +254,33 @@ Q = 0 and $\bar{Q}$ = 1
 - $\overline{PRESET} = 0; \overline{CLEAR} = 1$: The $\overline{PRESET}$ is activated and Q = 1 (no matter what conditions). The CLK inputs cannot affect the FF while $\overline{PRESET}$ = 0. \\
 - $\overline{PRESET} = 1; \overline{CLEAR} = 0$: The $\overline{CLEAR}$ is activated and Q = 0 (no matter what conditions). The CLK inputs cannot affect the FF while $\overline{CLEAR}$ = 0. \\
 - $\overline{PRESET} = \overline{CLEAR} = 0$: Ambiguous response. \\
+\section{Flip Flop Timing Consideration}
+\subsection{Setup and Hold Times}
+- Setup time and Hold time represent for reliable FF triggering. In IC's datasheet will always spectify the minimum values of $t_s$ and $t_h$
+\subsection{Propagation Delays}
+- Whenever a signal is to change the state of a FF's output, there is delay from the time the signal is applied to the time when the output makes its change. \\
+- The delay is measured between 50 percent points on the input and output waveform.
+- Modern IC flip-flops have propagation delay that ranges from a few ns to 100 ns.
+\subsection{Maximum Clocking Frequency ($f_{Max}$)}
+- This is the highest frequency that may be applied to the CLK input of a FF and still have it triggerreliably.
+\subsection{CLock Pusle HIGH and LOW time}
+- Clock Pulse HIGH is the time when the CLK is kept at HIGH before goes LOW. \\
+- CLock Pulse LOW is the time when the CLK is kept at LOW before goes HIGH. \\
+\subsection{Asynchronous active pulse width}
+- The minimum time that PRESET or CLEAR must be held for the FF to set of clear reliably.
+\subsection{Clock Transition Time}
+- For reliable triggering, the clock waveform transition times (rise and fall time) should be kept be very short. If the clock signal takes too long to make the transition from 1 level to another, the FF will trigger eratically.
+- The transition time should be $\le$ 50 ns for TTL devices and $\le$ 200 ns for CMOS
+\section{Potential Timing Problem in FF circuit}
+- When the output of one FF is connected to the input of another FF and both devices are triggered by the same clock, there is a potential timing problem. \\
+- Propagation time delay may cause unpredictable outputs.
+- The problem can be reduced due to low hold time.
+\section{Flip Flop Synchronization}
+- Most system are primarily synchronous in their operation most of the signals will change states in synchronism with the clock transition. \\
+- The randomness by asynchronous can produce unpredictable result.
+\section{Data Storage and Transfer}
+- Most common of the flip flop is for storage and information. \\
+- The data is stored in groups is called \textbf{register}. \\
 \section{Fuzzy Logic}
 - Fuzzy Logic (FL) is a method of reasoning that resemble the human reasoning.\\
 - Unlike Combinational Logic which only takes precise input and produce a definite output as 0 and 1. \\
@@ -296,4 +323,18 @@ Q = 0 and $\bar{Q}$ = 1
 \end{itemize}
 \includegraphics[scale = 0.8]{hinh16}
 \bigbreak
+\section{Half Adder and Full Adder}
+- In digital system, an adder is a \textbf{digital circuit} in electronics that implies the addition of numbers. \\
+- It is used in the arithmetic logic units.
+- It also untilizes the many parts of the processors, address, ... etc. \\
+\subsection{Half Adder}
+\begin{itemize}
+	\item The half adder adds 2 binary inputs and produce the 2 outputs as SUM and CARRY; XOR gate is applied to both inputs to produce SUM; when AND gate is applied to produce CARRY.
+	\item \includegraphics[scale = 0.8]{hinh17}
+	\item \includegraphics[scale = 0.8]{hinh18}
+\end{itemize}
+\subsection{Full Adder}
+\begin{itemize}
+	\item The different between Full Adder and Half Adder is Full Adder use 3 binary inputs, which 2 of inputs can be reffered as operands and the other one is a bit carried in.
+\end{itemize} 
 \end{document}
