@@ -24,6 +24,7 @@ int main () {
 	}
 	cout<< "Result = "<<endl;
 	cout<<result<<endl;
+	system("pause");
 	return 0;
 	}
 }
