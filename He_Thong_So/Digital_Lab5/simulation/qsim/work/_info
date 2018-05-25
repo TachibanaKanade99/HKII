@@ -1,0 +1,178 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Tuan Minh/HKII/He_Thong_So/Digital_Lab5/simulation/qsim
+vd_ff_r
+!s110 1525537138
+!i10b 1
+!s100 UZ@7M[lzj=Jn9f>UM0_=H1
+IojEzmmKM[GFP_CLhIl^Mk0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1525537134
+Z2 8Verilog.vo
+Z3 FVerilog.vo
+Z4 L0 32
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1525537138.000000
+Z6 !s107 Verilog.vo|
+Z7 !s90 -work|work|Verilog.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vd_ff_r_vlg_vec_tst
+!s110 1525537139
+!i10b 1
+!s100 <5LmoId_hlL30Q01:m<kR3
+I1LI8SzBK=B6fJ>MZm]2E[2
+R1
+R0
+w1525537132
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+Z10 L0 30
+R5
+r1
+!s85 0
+31
+!s108 1525537139.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R8
+R9
+vd_ff_s
+Z11 !s110 1525498403
+!i10b 1
+!s100 @>RG0m4zDS8K6C;dFgmdB1
+IP4IN:Fz?fn4PTE[<6=e:z0
+R1
+R0
+w1525498402
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1525498403.000000
+R6
+R7
+!i113 1
+R8
+R9
+vd_ff_s_vlg_vec_tst
+R11
+!i10b 1
+!s100 5<GFC;X8^7o;TDci4M9QW2
+Iz:J:]MRD9IJzS]0Nb7gC12
+R1
+R0
+w1525498401
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R10
+R5
+r1
+!s85 0
+31
+R12
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R8
+R9
+vjk_ff_asy
+Z13 !s110 1525601062
+!i10b 1
+!s100 8zV4TCTlk@YeIFHAfIbN^3
+I4JFko^i_f78GMoURNfQUQ1
+R1
+R0
+w1525601061
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z14 !s108 1525601062.000000
+R6
+R7
+!i113 1
+R8
+R9
+vjk_ff_asy_vlg_vec_tst
+R13
+!i10b 1
+!s100 WW9en`EEPMg;7:NhDoO`83
+IH6BTXlE9CY:56lHkXl<9a1
+R1
+R0
+w1525601060
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R10
+R5
+r1
+!s85 0
+31
+R14
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R8
+R9
+vjk_ff_s
+Z15 !s110 1525538769
+!i10b 1
+!s100 6Vi^A<5@G3R<@52XaC4>g2
+I=Tn=DD6M^ECb1f_zMW__a1
+R1
+R0
+w1525538766
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z16 !s108 1525538769.000000
+R6
+R7
+!i113 1
+R8
+R9
+vjk_ff_s_vlg_vec_tst
+R15
+!i10b 1
+!s100 T:E4o<F^BOoA;nC3>3mMU1
+I>l72TDH526[9i];bETb`k3
+R1
+R0
+w1525538764
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+R10
+R5
+r1
+!s85 0
+31
+R16
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R8
+R9

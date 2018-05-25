@@ -1,0 +1,12 @@
+Enter N:vertices[0].x = -93
+vertices[0].y = -1
+vertices[1].x = -60
+vertices[1].y = 79
+vertices[2].x = 60
+vertices[2].y = 28
+vertices[3].x = -6
+vertices[3].y = 32
+vertices[4].x = -80
+vertices[4].y = 44
+
+Perimeter is 449.316

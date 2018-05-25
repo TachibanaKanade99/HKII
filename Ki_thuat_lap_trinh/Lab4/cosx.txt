@@ -1,0 +1,16 @@
+	float x;
+	float y;
+	float z;
+	float k=1;
+	float h=1;
+	cin >> x;
+	for (float j=0;j<100;j++){
+		y=(j+1)*(j+2);
+		z=y*(j+3)*(j+4);
+		h=h-pow(x,j+2)/(k*y)+pow(x,j+4)/(k*z);
+		j=j+3;
+		k=k*z;
+	}
+	cout << h;
+	system("Pause");
+	return 0;

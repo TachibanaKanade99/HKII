@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  11 MAR 2018 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  3 APR 2018 09:50
 entering extended mode
 **./Math.tex
 (Math.tex
@@ -1058,8 +1058,7 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\vntex\vncaps.tex"
 File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
-))
-No file Math.aux.
+)) (Math.aux)
 \openout1 = `Math.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -1076,6 +1075,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
+
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
@@ -1176,26 +1176,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--147
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 147.
-[4] [5] (Math.aux) ) 
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+<hinh3.png, id=28, 158.09062pt x 127.97812pt>
+File: hinh3.png Graphic file (type png)
+ <use hinh3.png>
+Package pdftex.def Info: hinh3.png used on input line 176.
+(pdftex.def)             Requested size: 126.47266pt x 102.38261pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+[5 <./hinh3.png>] <hinh2.png, id=34, 311.1625pt x 195.22937pt>
+File: hinh2.png Graphic file (type png)
+ <use hinh2.png>
+Package pdftex.def Info: hinh2.png used on input line 187.
+(pdftex.def)             Requested size: 248.93034pt x 156.1837pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 191.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 197.
+
+<hinh4.png, id=35, 632.3625pt x 189.70876pt>
+File: hinh4.png Graphic file (type png)
+ <use hinh4.png>
+Package pdftex.def Info: hinh4.png used on input line 201.
+(pdftex.def)             Requested size: 442.65074pt x 132.79521pt.
+
+Overfull \hbox (52.65074pt too wide) in paragraph at lines 201--202
+[] 
+ []
+
+[6 <./hinh2.png>] [7 <./hinh4.png>] (Math.aux) ) 
 Here is how much of TeX's memory you used:
- 14362 strings out of 493323
- 250053 string characters out of 3139069
+ 14379 strings out of 493323
+ 250261 string characters out of 3139069
  318613 words of memory out of 3000000
- 17743 multiletter control sequences out of 15000+200000
+ 17755 multiletter control sequences out of 15000+200000
  541600 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,43p,10421b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vn
-r/vnr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on Math.pdf (5 pages, 169625 bytes).
+<C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/
+vnti12.pfb>
+Output written on Math.pdf (7 pages, 298824 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

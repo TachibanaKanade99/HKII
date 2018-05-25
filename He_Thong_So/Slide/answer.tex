@@ -1,0 +1,100 @@
+\documentclass[12pt]{article}
+\usepackage{pictex,amsmath,amssymb,amsbsy,amsfonts}
+\usepackage{graphics,graphicx}
+\usepackage{mathabx}
+
+\setlength{\voffset}{-0.25in}
+\setlength{\headsep}{+0.5in}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+
+\def\vu{\mathbf{u}}
+\def\vv{\mathbf{v}}
+\def\vb{\mathbf{b}}
+\def\vs{\mathbf{s}}
+\def\vw{\mathbf{w}}
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{mdframed}
+\usepackage[utf8]{vietnam}
+
+
+
+\usepackage{listings}
+\definecolor{vgreen}{RGB}{104,180,104}
+\definecolor{vblue}{RGB}{49,49,255}
+\definecolor{vorange}{RGB}{255,143,102}
+
+\lstdefinestyle{verilog-style}
+{
+    language=Verilog,
+    basicstyle=\small\ttfamily,
+    keywordstyle=\color{vblue},
+    identifierstyle=\color{black},
+    commentstyle=\color{vgreen},
+    numbers=left,
+    numberstyle=\tiny\color{black},
+    numbersep=10pt,
+    tabsize=8,
+    moredelim=*[s][\colorIndex]{[}{]},
+    literate=*{:}{:}1
+}
+
+\makeatletter
+\newcommand*\@lbracket{[}
+\newcommand*\@rbracket{]}
+\newcommand*\@colon{:}
+\newcommand*\colorIndex{%
+    \edef\@temp{\the\lst@token}%
+    \ifx\@temp\@lbracket \color{black}%
+    \else\ifx\@temp\@rbracket \color{black}%
+    \else\ifx\@temp\@colon \color{black}%
+    \else \color{vorange}%
+    \fi\fi\fi
+}
+\makeatother
+
+\usepackage{trace}
+
+
+\newmdenv[linecolor=blue,skipabove=\topsep,skipbelow=\topsep,leftmargin=5pt,rightmargin=-5pt,innerleftmargin=5pt,innerrightmargin=5pt]{mybox}
+
+
+\begin{document}
+\section{Combinational Logic circuit and Sequential Logic circuit}
+\begin{enumerate}
+    %1
+    \item Combinational Logic Circuit: \\
+    \begin{itemize}
+        \item Combinational Logic Circuit is the circuit made up from the basic \textbf{logic} gate (AND, OR, NOT) or universal gates (NAND, NOR).  
+        \item These gates are \textbf{combined} together to produced more complicated circuits.
+        \item Output of the Combinational Circuit depend totally in the current input.
+    \end{itemize}
+    %2
+    \item Sequential Digital Circuit: \\
+    \begin{itemize}
+        \item The inputs of Sequential Circuit also include the previous output from the circuit. 
+        \item In Sequential Circuit, memory elements is used to store the previous value of the last output of the circuit. 
+        \item Output depend on both circuit state and current input.
+    \end{itemize}
+\end{enumerate}
+\section{Question 2: }
+\begin{enumerate}
+    %1
+    \item How can you declare a negative triggered edge in sensitive list ? \\
+    \begin{lstlisting}[style={verilog-style}]
+        module Edge_trigger
+        always @(negedge clk) begin
+            //Statement:
+        end
+    \end{lstlisting}
+    %2
+    \item In the example 6, assume that out1 = 5 and out2 = 0, in = 1. What is the value of out1 and out2 in the clock trigger? Explain your results? \\
+     \begin{itemize}
+        \item The value of out1 is 0 and out2 is 5.
+        \item Because when initial rst = 0, when we get the out1 and out2, rst = 1. When trigger the clock trigger, out1 and out2 will equal 0 and the circuit will be performed in sensitive list, in = 1 will perform the \textbf{else if} statement the later out1 is assigned to initial out2 and the later out2 is assigned to the initial out1.
+     \end{itemize} 
+\end{enumerate}
+
+\end{document}

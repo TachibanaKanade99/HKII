@@ -1,0 +1,15 @@
+module mux_2_to_1(out, select, a, b);
+	//output
+	output [3:0]out;
+	//input
+	input select;
+	input [3:0]a;
+	input [3:0]b;
+	
+	//wire
+	wire [7:0]and_wire;
+	wire [3:0]not_wire;
+	
+	and and_0(and_wire[0], select, a[0]);
+	//continue your code here 
+endmodule 

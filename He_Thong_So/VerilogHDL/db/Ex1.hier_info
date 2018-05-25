@@ -1,0 +1,14 @@
+|ex3
+f << f_1.DB_MAX_OUTPUT_PORT_TYPE
+g << g_1.DB_MAX_OUTPUT_PORT_TYPE
+h << h_1.DB_MAX_OUTPUT_PORT_TYPE
+x1[0] => and_0.IN0
+x1[1] => or_0.IN0
+x2[0] => and_1.IN0
+x2[1] => or_1.IN0
+x3[0] => and_0.IN1
+x3[1] => or_0.IN1
+x4[0] => and_1.IN1
+x4[1] => or_1.IN1
+
+

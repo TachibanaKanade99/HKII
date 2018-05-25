@@ -1,0 +1,12 @@
+|jk_ff_asy
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_n <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => q~reg0.CLK
+pre_n => q.IN0
+pre_n => q~reg0.PRESET
+clr_n => q.IN1
+j => q.OUTPUTSELECT
+k => q.OUTPUTSELECT
+k => q.OUTPUTSELECT
+
+

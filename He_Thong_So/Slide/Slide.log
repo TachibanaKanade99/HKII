@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  30 MAR 2018 08:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.2)  25 MAY 2018 07:19
 entering extended mode
 **./Slide.tex
 (Slide.tex
@@ -1271,37 +1271,65 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\vntex\vncaps.tex"
 File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
-)) (Slide.aux)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count283
+\lst@gtempboxa=\box56
+\lst@token=\toks26
+\lst@length=\count284
+\lst@currlwidth=\dimen317
+\lst@column=\count285
+\lst@pos=\count286
+\lst@lostspace=\dimen318
+\lst@width=\dimen319
+\lst@newlines=\count287
+\lst@lineno=\count288
+\lst@maxwidth=\dimen320
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count289
+\lst@skipnumbers=\count290
+\lst@framebox=\box57
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\trace.sty"
+Package: trace 2014/10/28 v1.1d trace LaTeX code
+) (Slide.aux)
 \openout1 = `Slide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen317
-\scratchbox=\box56
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen318
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count291
+\scratchdimen=\dimen321
+\scratchbox=\box58
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen322
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks28
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1315,38 +1343,39 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box57
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
+\AtBeginShipoutBox=\box59
+\c@lstlisting=\count297
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 
-Overfull \hbox (4.6827pt too wide) in paragraph at lines 33--33
+Overfull \hbox (4.6827pt too wide) in paragraph at lines 72--72
 |\T5/cmr/bx/n/14.4 Analog-to-digital con-ver-sion(ADC) and digital-to-analog
  []
 
 <hinh.png, id=1, 164.11313pt x 279.54437pt>
 File: hinh.png Graphic file (type png)
  <use hinh.png>
-Package pdftex.def Info: hinh.png used on input line 34.
+Package pdftex.def Info: hinh.png used on input line 73.
 (pdftex.def)             Requested size: 123.08453pt x 209.65775pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./hinh.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1354,20 +1383,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <hinh2.png, id=11, 182.6825pt x 94.3525pt>
 File: hinh2.png Graphic file (type png)
  <use hinh2.png>
-Package pdftex.def Info: hinh2.png used on input line 50.
+Package pdftex.def Info: hinh2.png used on input line 89.
 (pdftex.def)             Requested size: 182.68204pt x 94.35225pt.
 File: hinh.png Graphic file (type png)
  <use hinh.png>
-Package pdftex.def Info: hinh.png used on input line 52.
+Package pdftex.def Info: hinh.png used on input line 91.
 (pdftex.def)             Requested size: 164.11272pt x 279.54367pt.
 
 [2 <./hinh2.png>] <hinh3.png, id=19, 246.42062pt x 84.81688pt>
 File: hinh3.png Graphic file (type png)
  <use hinh3.png>
-Package pdftex.def Info: hinh3.png used on input line 55.
+Package pdftex.def Info: hinh3.png used on input line 94.
 (pdftex.def)             Requested size: 246.42pt x 84.81665pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
@@ -1375,168 +1404,674 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 File: hinh4.png Graphic file (type png)
 
 <use hinh4.png>
-Package pdftex.def Info: hinh4.png used on input line 60.
+Package pdftex.def Info: hinh4.png used on input line 99.
 (pdftex.def)             Requested size: 155.07898pt x 111.91785pt.
  [4 <./hinh4.png>] <hinh5.png, id=30, 221.82875pt x 49.18375pt>
 File: hinh5.png Graphic file (type png)
 
 <use hinh5.png>
-Package pdftex.def Info: hinh5.png used on input line 103.
+Package pdftex.def Info: hinh5.png used on input line 142.
 (pdftex.def)             Requested size: 221.82819pt x 49.18361pt.
- [5 <./hinh5.png>] <hinh6.png, id=35, 345.79187pt x 110.4125pt>
-File: hinh6.png Graphic file (type png)
 
-<use hinh6.png>
-Package pdftex.def Info: hinh6.png used on input line 125.
-(pdftex.def)             Requested size: 259.34326pt x 82.80916pt.
- [6 <./hinh6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-<hinh7.png, id=40, 559.59062pt x 287.0725pt>
+[5 <./hinh5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 168.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\vntex\t5cmtt.fd"
+File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+[6] <hinh6.png, id=40, 345.79187pt x 110.4125pt>
+File: hinh6.png Graphic file (type png)
+ <use hinh6.png>
+Package pdftex.def Info: hinh6.png used on input line 198.
+(pdftex.def)             Requested size: 259.34326pt x 82.80916pt.
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+[8 <./hinh6.png>] <hinh7.png, id=49, 559.59062pt x 287.0725pt>
 File: hinh7.png Graphic file (type png)
  <use hinh7.png>
-Package pdftex.def Info: hinh7.png used on input line 154.
+Package pdftex.def Info: hinh7.png used on input line 227.
 (pdftex.def)             Requested size: 391.71075pt x 200.94937pt.
 
-Overfull \hbox (1.71075pt too wide) in paragraph at lines 153--155
+Overfull \hbox (1.71075pt too wide) in paragraph at lines 226--228
 [] 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 156--161
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 229--234
 
  []
 
-[8 <./hinh7.png>] <hinh8.png, id=50, 302.63063pt x 161.60374pt>
+<hinh8.png, id=53, 302.63063pt x 161.60374pt>
 File: hinh8.png Graphic file (type png)
-
-<use hinh8.png>
-Package pdftex.def Info: hinh8.png used on input line 169.
+ <use hinh8.png>
+Package pdftex.def Info: hinh8.png used on input line 242.
 (pdftex.def)             Requested size: 211.83998pt x 113.12184pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+ [10 <./hinh7.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
-[9 <./hinh8.png>] <hinh10.png, id=56, 477.28313pt x 135.50626pt>
+[11 <./hinh8.png>] <hinh10.png, id=64, 477.28313pt x 135.50626pt>
 File: hinh10.png Graphic file (type png)
 
 <use hinh10.png>
-Package pdftex.def Info: hinh10.png used on input line 193.
+Package pdftex.def Info: hinh10.png used on input line 266.
 (pdftex.def)             Requested size: 334.0959pt x 94.85371pt.
- <hinh9.png, id=57, 417.56pt x 343.78438pt>
+ <hinh9.png, id=65, 417.56pt x 343.78438pt>
 File: hinh9.png Graphic file (type png)
  <use hinh9.png>
-Package pdftex.def Info: hinh9.png used on input line 196.
+Package pdftex.def Info: hinh9.png used on input line 269.
 (pdftex.def)             Requested size: 292.29pt x 240.64742pt.
 
-[10 <./hinh10.png>] [11 <./hinh9.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+[12 <./hinh10.png>] [13 <./hinh9.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-<hinh11.png, id=66, 479.7925pt x 97.36375pt>
+<hinh11.png, id=75, 479.7925pt x 97.36375pt>
 File: hinh11.png Graphic file (type png)
  <use hinh11.png>
-Package pdftex.def Info: hinh11.png used on input line 221.
-(pdftex.def)             Requested size: 383.8345pt x 77.89108pt.
+Package pdftex.def Info: hinh11.png used on input line 294.
+(pdftex.def)             Requested size: 287.8777pt x 58.41869pt.
 
-<hinh12.png, id=67, 349.80687pt x 105.39375pt>
+<hinh12.png, id=76, 349.80687pt x 105.39375pt>
 File: hinh12.png Graphic file (type png)
  <use hinh12.png>
-Package pdftex.def Info: hinh12.png used on input line 230.
-(pdftex.def)             Requested size: 279.84587pt x 84.3151pt.
- [12 <./hinh11.png>] <hinh13.png, id=72, 613.79312pt x 208.27812pt>
+Package pdftex.def Info: hinh12.png used on input line 303.
+(pdftex.def)             Requested size: 209.88574pt x 63.23672pt.
+ [14 <./hinh11.png>] <hinh13.png, id=81, 613.79312pt x 208.27812pt>
 File: hinh13.png Graphic file (type png)
  <use hinh13.png>
-Package pdftex.def Info: hinh13.png used on input line 240.
-(pdftex.def)             Requested size: 491.03516pt x 166.62271pt.
+Package pdftex.def Info: hinh13.png used on input line 313.
+(pdftex.def)             Requested size: 368.2787pt x 124.96782pt.
+ [15 <./hinh12.png>] <hinh14.png, id=86, 151.56625pt x 79.29625pt>
+File: hinh14.png Graphic file (type png)
+ <use hinh14.png>
+Package pdftex.def Info: hinh14.png used on input line 316.
+(pdftex.def)             Requested size: 98.51689pt x 51.54193pt.
 
-Overfull \hbox (101.03516pt too wide) in paragraph at lines 240--241
+<hinh15.png, id=87, 402.50375pt x 157.58875pt>
+File: hinh15.png Graphic file (type png)
+ <use hinh15.png>
+Package pdftex.def Info: hinh15.png used on input line 324.
+(pdftex.def)             Requested size: 261.62433pt x 102.43146pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--330
+
+ []
+
+[16 <./hinh13.png> <./hinh14.png> <./hinh15.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
+
+ []
+
+[17] [18] <hinh19.png, id=101, 557.58313pt x 264.48813pt>
+File: hinh19.png Graphic file (type png)
+ <use hinh19.png>
+Package pdftex.def Info: hinh19.png used on input line 359.
+(pdftex.def)             Requested size: 334.55246pt x 158.69409pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--366
+
+ []
+
+<hinh20.png, id=102, 303.1325pt x 346.79562pt>
+File: hinh20.png Graphic file (type png)
+ <use hinh20.png>
+Package pdftex.def Info: hinh20.png used on input line 367.
+(pdftex.def)             Requested size: 181.8809pt x 208.07896pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+[19 <./hinh19.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+
+ []
+
+[20 <./hinh20.png>] <hinh21.png, id=112, 518.93875pt x 84.81688pt>
+File: hinh21.png Graphic file (type png)
+
+<use hinh21.png>
+Package pdftex.def Info: hinh21.png used on input line 385.
+(pdftex.def)             Requested size: 311.36565pt x 50.8905pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+[21 <./hinh21.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
+
+ []
+
+<hinh22.png, id=117, 461.725pt x 86.3225pt>
+File: hinh22.png Graphic file (type png)
+ <use hinh22.png>
+Package pdftex.def Info: hinh22.png used on input line 403.
+(pdftex.def)             Requested size: 277.03714pt x 51.79388pt.
+
+<hinh23.png, id=118, 475.7775pt x 108.405pt>
+File: hinh23.png Graphic file (type png)
+ <use hinh23.png>
+Package pdftex.def Info: hinh23.png used on input line 408.
+(pdftex.def)             Requested size: 285.46869pt x 65.04349pt.
+ [22 <./hinh22.png> <./hinh23.png>] <hinh24.png, id=124, 650.93187pt x 298.1137
+5pt>
+File: hinh24.png Graphic file (type png)
+
+<use hinh24.png>
+Package pdftex.def Info: hinh24.png used on input line 431.
+(pdftex.def)             Requested size: 390.56212pt x 178.86963pt.
+
+Overfull \hbox (0.56212pt too wide) in paragraph at lines 429--432
 [] 
  []
 
-[13 <./hinh12.png>] <hinh14.png, id=78, 151.56625pt x 79.29625pt>
-File: hinh14.png Graphic file (type png)
+<hinh28.png, id=125, 662.97687pt x 277.53688pt>
+File: hinh28.png Graphic file (type png)
+ <use hinh28.png>
+Package pdftex.def Info: hinh28.png used on input line 433.
+(pdftex.def)             Requested size: 397.78918pt x 166.5234pt.
 
-<use hinh14.png>
-Package pdftex.def Info: hinh14.png used on input line 243.
-(pdftex.def)             Requested size: 128.83191pt x 67.4021pt.
- <hinh15.png, id=79, 402.50375pt x 157.58875pt>
-File: hinh15.png Graphic file (type png)
+Overfull \hbox (7.78918pt too wide) in paragraph at lines 433--434
+[][] 
+ []
 
-<use hinh15.png>
-Package pdftex.def Info: hinh15.png used on input line 251.
-(pdftex.def)             Requested size: 342.12979pt x 133.95105pt.
- [14 <./hinh13.png> <./hinh14.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 253--257
+[23 <./hinh24.png>] <hinh25.png, id=131, 301.125pt x 105.39375pt>
+File: hinh25.png Graphic file (type png)
+
+<use hinh25.png>
+Package pdftex.def Info: hinh25.png used on input line 439.
+(pdftex.def)             Requested size: 180.67638pt x 63.23672pt.
+ <hinh26.png, id=132, 490.83376pt x 122.4575pt>
+File: hinh26.png Graphic file (type png)
+
+<use hinh26.png>
+Package pdftex.def Info: hinh26.png used on input line 442.
+(pdftex.def)             Requested size: 294.50252pt x 73.47505pt.
+ <hinh29.png, id=133, 260.975pt x 105.39375pt>
+File: hinh29.png Graphic file (type png)
+
+<use hinh29.png>
+Package pdftex.def Info: hinh29.png used on input line 445.
+(pdftex.def)             Requested size: 156.5862pt x 63.23672pt.
+ <hinh27.png, id=134, 540.51938pt x 127.47626pt>
+File: hinh27.png Graphic file (type png)
+
+<use hinh27.png>
+Package pdftex.def Info: hinh27.png used on input line 448.
+(pdftex.def)             Requested size: 324.31412pt x 76.48633pt.
+ [24 <./hinh28.png> <./hinh25.png> <./hinh26.png> <./hinh29.png>] <hinh30.png, 
+id=142, 348.30125pt x 143.53625pt>
+File: hinh30.png Graphic file (type png)
+ <use hinh30.png>
+Package pdftex.def Info: hinh30.png used on input line 466.
+(pdftex.def)             Requested size: 208.98236pt x 86.1224pt.
+ [25 <./hinh27.png>] <hinh31.png, id=148, 89.83563pt x 116.93687pt>
+File: hinh31.png Graphic file (type png)
+ <use hinh31.png>
+Package pdftex.def Info: hinh31.png used on input line 474.
+(pdftex.def)             Requested size: 53.90178pt x 70.16264pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--477
 
  []
 
-[15 <./hinh15.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+[26 <./hinh30.png> <./hinh31.png>]
+<hinh32.png, id=154, 229.85875pt x 65.24374pt>
+File: hinh32.png Graphic file (type png)
+ <use hinh32.png>
+Package pdftex.def Info: hinh32.png used on input line 485.
+(pdftex.def)             Requested size: 137.91629pt x 39.14653pt.
+
+<hinh33.png, id=155, 311.1625pt x 80.80188pt>
+File: hinh33.png Graphic file (type png)
+ <use hinh33.png>
+Package pdftex.def Info: hinh33.png used on input line 487.
+(pdftex.def)             Requested size: 186.69894pt x 48.48149pt.
+
+<hinh34.png, id=156, 302.12875pt x 139.01938pt>
+File: hinh34.png Graphic file (type png)
+ <use hinh34.png>
+Package pdftex.def Info: hinh34.png used on input line 491.
+(pdftex.def)             Requested size: 181.27864pt x 83.41226pt.
+
+<hinh35.png, id=157, 385.44pt x 143.53625pt>
+File: hinh35.png Graphic file (type png)
+ <use hinh35.png>
+Package pdftex.def Info: hinh35.png used on input line 494.
+(pdftex.def)             Requested size: 231.26578pt x 86.1224pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
+[27 <./hinh32.png> <./hinh33.png> <./hinh34.png> <./hinh35.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 505--508
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--288
+Underfull \hbox (badness 10000) in paragraph at lines 509--512
 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+[28] <hinh36.png, id=168, 383.4325pt x 248.42813pt>
+File: hinh36.png Graphic file (type png)
+ <use hinh36.png>
+Package pdftex.def Info: hinh36.png used on input line 519.
+(pdftex.def)             Requested size: 230.06126pt x 149.05801pt.
+
+<hinh37.png, id=169, 572.63937pt x 317.68687pt>
+File: hinh37.png Graphic file (type png)
+ <use hinh37.png>
+Package pdftex.def Info: hinh37.png used on input line 524.
+(pdftex.def)             Requested size: 343.58627pt x 190.61359pt.
+ [29 <./hinh36.png>] <hinh38.png, id=174, 544.53438pt x 160.09813pt>
+File: hinh38.png Graphic file (type png)
+ <use hinh38.png>
+Package pdftex.def Info: hinh38.png used on input line 534.
+(pdftex.def)             Requested size: 326.72314pt x 96.0596pt.
+ [30 <./hinh37.png>] <hinh39.png, id=179, 716.17563pt x 350.81062pt>
+File: hinh39.png Graphic file (type png)
+ <use hinh39.png>
+Package pdftex.def Info: hinh39.png used on input line 536.
+(pdftex.def)             Requested size: 429.7087pt x 210.48799pt.
+
+Overfull \hbox (39.7087pt too wide) in paragraph at lines 536--537
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
 
-<hinh16.png, id=96, 449.17813pt x 243.91125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+
+ []
+
+[31 <./hinh38.png> <./hinh39.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
+
+ []
+
+<hinh40.png, id=186, 451.18562pt x 334.24875pt>
+File: hinh40.png Graphic file (type png)
+ <use hinh40.png>
+Package pdftex.def Info: hinh40.png used on input line 552.
+(pdftex.def)             Requested size: 270.71346pt x 200.55078pt.
+ [32]
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
+
+ []
+
+<hinh41.png, id=190, 391.96437pt x 316.68312pt>
+File: hinh41.png Graphic file (type png)
+ <use hinh41.png>
+Package pdftex.def Info: hinh41.png used on input line 569.
+(pdftex.def)             Requested size: 235.18044pt x 190.01134pt.
+ [33 <./hinh40.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 571--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--583
+
+ []
+
+[34 <./hinh41.png>]
+File: hinh41.png Graphic file (type png)
+ <use hinh41.png>
+Package pdftex.def Info: hinh41.png used on input line 594.
+(pdftex.def)             Requested size: 235.18044pt x 190.01134pt.
+
+<hinh42.png, id=199, 495.35063pt x 269.50688pt>
+File: hinh42.png Graphic file (type png)
+ <use hinh42.png>
+Package pdftex.def Info: hinh42.png used on input line 596.
+(pdftex.def)             Requested size: 297.21268pt x 161.70537pt.
+ [35]
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
+
+ []
+
+<hinh43.png, id=205, 390.45876pt x 186.19562pt>
+File: hinh43.png Graphic file (type png)
+ <use hinh43.png>
+Package pdftex.def Info: hinh43.png used on input line 603.
+(pdftex.def)             Requested size: 234.27705pt x 111.71823pt.
+
+<hinh44.png, id=206, 369.88188pt x 314.67563pt>
+File: hinh44.png Graphic file (type png)
+ <use hinh44.png>
+Package pdftex.def Info: hinh44.png used on input line 607.
+(pdftex.def)             Requested size: 221.93083pt x 188.80682pt.
+ [36 <./hinh42.png> <./hinh43.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 610--613
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--616
+
+ []
+
+[37 <./hinh44.png>] <hinh45.png, id=217, 594.22pt x 157.58875pt>
+File: hinh45.png Graphic file (type png)
+
+<use hinh45.png>
+Package pdftex.def Info: hinh45.png used on input line 620.
+(pdftex.def)             Requested size: 356.53474pt x 94.55397pt.
+ <hinh46.png, id=218, 799.48688pt x 350.30875pt>
+File: hinh46.png Graphic file (type png)
+
+<use hinh46.png>
+Package pdftex.def Info: hinh46.png used on input line 622.
+(pdftex.def)             Requested size: 479.69583pt x 210.18686pt.
+
+Overfull \hbox (89.69583pt too wide) in paragraph at lines 622--623
+[][] 
+ []
+
+<hinh47.png, id=219, 725.20938pt x 333.74687pt>
+File: hinh47.png Graphic file (type png)
+ <use hinh47.png>
+Package pdftex.def Info: hinh47.png used on input line 628.
+(pdftex.def)             Requested size: 435.12898pt x 200.24966pt.
+
+Overfull \hbox (45.12898pt too wide) in paragraph at lines 625--629
+[] 
+ []
+
+[38 <./hinh45.png> <./hinh46.png>]
+<hinh48.png, id=225, 450.18187pt x 303.63437pt>
+File: hinh48.png Graphic file (type png)
+ <use hinh48.png>
+Package pdftex.def Info: hinh48.png used on input line 635.
+(pdftex.def)             Requested size: 270.1112pt x 182.18202pt.
+ [39 <./hinh47.png>] <hinh49.png, id=230, 582.175pt x 190.21063pt>
+File: hinh49.png Graphic file (type png)
+ <use hinh49.png>
+Package pdftex.def Info: hinh49.png used on input line 637.
+(pdftex.def)             Requested size: 349.3077pt x 114.12724pt.
+
+<hinh50.png, id=231, 645.41125pt x 459.7175pt>
+File: hinh50.png Graphic file (type png)
+ <use hinh50.png>
+Package pdftex.def Info: hinh50.png used on input line 642.
+(pdftex.def)             Requested size: 387.24974pt x 275.83263pt.
+ [40 <./hinh48.png> <./hinh49.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 654--659
+
+ []
+
+[41 <./hinh50.png>] <hinh51.png, id=241, 474.27188pt x 267.49937pt>
+File: hinh51.png Graphic file (type png)
+
+<use hinh51.png>
+Package pdftex.def Info: hinh51.png used on input line 661.
+(pdftex.def)             Requested size: 331.98805pt x 187.24828pt.
+ <hinh52.png, id=242, 528.47438pt x 204.26312pt>
+File: hinh52.png Graphic file (type png)
+
+<use hinh52.png>
+Package pdftex.def Info: hinh52.png used on input line 663.
+(pdftex.def)             Requested size: 369.92953pt x 142.9832pt.
+ [42 <./hinh51.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 668--671
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--674
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
+
+ []
+
+[43 <./hinh52.png>] <hinh53.png, id=252, 903.87688pt x 396.98312pt>
+File: hinh53.png Graphic file (type png)
+
+<use hinh53.png>
+Package pdftex.def Info: hinh53.png used on input line 681.
+(pdftex.def)             Requested size: 451.93733pt x 198.49107pt.
+
+Overfull \hbox (61.93733pt too wide) in paragraph at lines 680--682
+[] 
+ []
+
+<hinh54.png, id=253, 734.745pt x 306.64563pt>
+File: hinh54.png Graphic file (type png)
+ <use hinh54.png>
+Package pdftex.def Info: hinh54.png used on input line 684.
+(pdftex.def)             Requested size: 440.85039pt x 183.98878pt.
+
+Overfull \hbox (50.85039pt too wide) in paragraph at lines 684--686
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--686
+
+ []
+
+[44 <./hinh53.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
+
+ []
+
+<hinh55.png, id=258, 631.86063pt x 198.24063pt>
+File: hinh55.png Graphic file (type png)
+ <use hinh55.png>
+Package pdftex.def Info: hinh55.png used on input line 698.
+(pdftex.def)             Requested size: 442.29942pt x 138.76749pt.
+
+Overfull \hbox (81.67412pt too wide) in paragraph at lines 696--699
+[] 
+ []
+
+[45 <./hinh54.png>] <hinh56.png, id=263, 871.75688pt x 396.98312pt>
+File: hinh56.png Graphic file (type png)
+
+<use hinh56.png>
+Package pdftex.def Info: hinh56.png used on input line 700.
+(pdftex.def)             Requested size: 435.87738pt x 198.49107pt.
+
+Overfull \hbox (75.25208pt too wide) in paragraph at lines 700--701
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 702--704
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 704--706
+
+ []
+
+<hinh60.png, id=264, 683.55376pt x 419.5675pt>
+File: hinh60.png Graphic file (type png)
+ <use hinh60.png>
+Package pdftex.def Info: hinh60.png used on input line 709.
+(pdftex.def)             Requested size: 546.84375pt x 335.65445pt.
+
+Overfull \hbox (156.84375pt too wide) in paragraph at lines 708--710
+[] 
+ []
+
+[46 <./hinh55.png> <./hinh56.png>]
+<hinh61.png, id=270, 239.89626pt x 126.97438pt>
+File: hinh61.png Graphic file (type png)
+ <use hinh61.png>
+Package pdftex.def Info: hinh61.png used on input line 712.
+(pdftex.def)             Requested size: 167.92622pt x 88.88145pt.
+ [47 <./hinh60.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
+
+ []
+
+<hinh62.png, id=275, 356.83313pt x 132.495pt>
+File: hinh62.png Graphic file (type png)
+ <use hinh62.png>
+Package pdftex.def Info: hinh62.png used on input line 725.
+(pdftex.def)             Requested size: 249.78148pt x 92.74585pt.
+ [48 <./hinh61.png> <./hinh62.png>] <hinh57.png, id=281, 433.62pt x 216.81pt>
+File: hinh57.png Graphic file (type png)
+ <use hinh57.png>
+Package pdftex.def Info: hinh57.png used on input line 746.
+(pdftex.def)             Requested size: 303.53192pt x 151.76596pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 748--749
+
+ []
+
+[49 <./hinh57.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 756--759
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--763
+
+ []
+
+[50] <hinh58.png, id=290, 314.67563pt x 218.31563pt>
+File: hinh58.png Graphic file (type png)
+ <use hinh58.png>
+Package pdftex.def Info: hinh58.png used on input line 771.
+(pdftex.def)             Requested size: 220.27142pt x 152.81989pt.
+
+<hinh59.png, id=291, 903.87688pt x 419.5675pt>
+File: hinh59.png Graphic file (type png)
+ <use hinh59.png>
+Package pdftex.def Info: hinh59.png used on input line 773.
+(pdftex.def)             Requested size: 542.33032pt x 251.74243pt.
+
+Overfull \hbox (152.33032pt too wide) in paragraph at lines 773--774
+[][] 
+ []
+
+[51 <./hinh58.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 775--777
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 778--780
+
+ []
+
+[52 <./hinh59.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 783--787
+
+ []
+
+<hinh63.png, id=300, 295.1025pt x 208.27812pt>
+File: hinh63.png Graphic file (type png)
+ <use hinh63.png>
+Package pdftex.def Info: hinh63.png used on input line 794.
+(pdftex.def)             Requested size: 206.57033pt x 145.79369pt.
+ [53]
+Underfull \hbox (badness 10000) in paragraph at lines 811--814
+
+ []
+
+[54 <./hinh63.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 823--824
+
+ []
+
+<hinh16.png, id=308, 449.17813pt x 243.91125pt>
 File: hinh16.png Graphic file (type png)
  <use hinh16.png>
-Package pdftex.def Info: hinh16.png used on input line 324.
-(pdftex.def)             Requested size: 359.34299pt x 195.12926pt.
- [18]
-Underfull \hbox (badness 10000) in paragraph at lines 327--330
+Package pdftex.def Info: hinh16.png used on input line 850.
+(pdftex.def)             Requested size: 269.50896pt x 146.34787pt.
+ [55]
+Underfull \hbox (badness 10000) in paragraph at lines 853--856
 
  []
 
-<hinh17.png, id=100, 338.76563pt x 143.03438pt>
+<hinh17.png, id=313, 338.76563pt x 143.03438pt>
 File: hinh17.png Graphic file (type png)
  <use hinh17.png>
-Package pdftex.def Info: hinh17.png used on input line 333.
-(pdftex.def)             Requested size: 271.01285pt x 114.42764pt.
- [19 <./hinh16.png>] <hinh18.png, id=106, 340.77313pt x 215.30438pt>
+Package pdftex.def Info: hinh17.png used on input line 859.
+(pdftex.def)             Requested size: 203.26093pt x 85.82127pt.
+
+<hinh18.png, id=314, 340.77313pt x 215.30438pt>
 File: hinh18.png Graphic file (type png)
  <use hinh18.png>
-Package pdftex.def Info: hinh18.png used on input line 334.
-(pdftex.def)             Requested size: 272.61887pt x 172.24373pt.
- [20 <./hinh17.png> <./hinh18.png>] (Slide.aux) ) 
+Package pdftex.def Info: hinh18.png used on input line 860.
+(pdftex.def)             Requested size: 204.46545pt x 129.18361pt.
+ [56 <./hinh16.png> <./hinh17.png>] [57 <./hinh18.png>] (Slide.aux) ) 
 Here is how much of TeX's memory you used:
- 14437 strings out of 493323
- 249947 string characters out of 3139069
- 307000 words of memory out of 3000000
- 17799 multiletter control sequences out of 15000+200000
- 550479 words of font info for 76 fonts, out of 3000000 for 9000
+ 16640 strings out of 493323
+ 279558 string characters out of 3139069
+ 350540 words of memory out of 3000000
+ 19924 multiletter control sequences out of 15000+200000
+ 553568 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,35p,10422b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\USER\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi600\matha12.pk><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on Slide.pdf (20 pages, 770622 bytes).
+ 39i,9n,49p,10422b,1412s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users
+\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi720\matha12.pk
+> <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi600
+\matha8.pk> <C:\Users\USER\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\math
+abx\dpi600\matha12.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/
+vnr/vnbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnr6.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/vntex/vnr/vntt10.pfb>
+Output written on Slide.pdf (57 pages, 2789207 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
+ 385 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
