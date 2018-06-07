@@ -794,7 +794,66 @@ TTL 74ALS160, 74ALS161, 74ALS162, and 74ALS163 and their CMOS equivalents, 74HC1
 \includegraphics[scale = 0.7]{hinh63}
 \bigbreak
 \textbf{Two-Input Multiplexer} \\
-- For a two-input multiplexer with data inputs $I_{0}$ and $I_1$ and the SELECT input
+- For a two-input multiplexer with data inputs $I_{0}$ and $I_1$ and the SELECT input. \\
+\includegraphics[scale = 0.6]{hinh64}
+\bigbreak
+- The boolean expression for the output Z is: \\
+\begin{center}
+    $Z = I_{0} \bar{S} + I_{1} S$
+\end{center}
+- When S = 0, this expression becomes: \\
+\begin{align}
+    Z &= I_{0} \cdot 1 + I_{1} \cdot 0 \\
+    &= I_{0}
+\end{align}
+\bigbreak
+\textbf{4-input Multiplexer} \\
+\includegraphics[scale = 0.6]{hinh65}
+\bigbreak
+\textbf{8-input Multiplexer} \\
+\includegraphics[scale = 0.6]{hinh66}
+\bigbreak
+\includegraphics[scale = 0.6]{hinh67}
+\bigbreak
+
+\subsection{Quad 2-Input MUX} (74ALS157)
+\includegraphics[scale = 0.6]{hinh68}
+\bigbreak
+\includegraphics[scale = 0.6]{hinh69}
+\bigbreak
+
+\subsection{MUX Application}
+\textbf{Data Routing} \\
+- Multiplexer can route data from one of several sources to one destination. The circuit below shows the system for displaying two multidigit BCD counters and choose to display one LED only at time. \\
+\includegraphics[scale = 0.7]{hinh70}
+\bigbreak
+\begin{enumerate}
+    \item Each counter consists of either 2 BCD counters and each one is driven by its own CLK.
+    \item When the \textbf{COUNTER SELECT} line is HIGH, the ouputs of counter 1 will be will be allowed to pass through the multiplexer to the decoder (7447) and display on lED. When the \textbf{COUNTER SELECT} = 0, the output of counter 2 will be allowed to pass through the multiplexer to the decoder and display on LED.
+\end{enumerate}
+\bigbreak
+\textbf{Parallel to Serial Conversion} \\
+\includegraphics[scale = 0.6]{hinh71}
+\bigbreak
+- The data is present in parallel form at the outputs of X register and are fed to the 8-input MUX. \\
+- A 3-bit MOD3 counter is used to provide the select code bits $S_{2} S_{1} S_{0}$
+ so they cycle through from 000 to 111 as CLK pulses are applied. \\
+ Ex: We have the signal where $X_{7} X_{6} X_{5} X_{4} X_{3} X_{2} X_{1} X_{0}$ = 10110101. \\
+ \textbf{Solution:} This conversion process takes a total 8-CLK cycles. Note that $X_{0}$ is the LSB and $X_{7}$ is MSB. \\
+ \bigbreak
+ \subsection{Demultiplexer (Data Distributor:)}
+ - A demultiplexer does reversed operation to the multiplexer: it takes a single input and distributes several outputs. \\
+ \includegraphics[scale = 0.6]{hinh72}
+ \bigbreak
+ - In demultiplexer, the select input code determines to which output the DATA input will be transmitted. \\
+ - In other words, the demultiplexer takes ont input data source and selectively distributes it to 1 of N output channels just like a multiposition switch. \\
+ \bigbreak
+ \textbf{1-Line to 8-Line Demultiplexer: } \\
+ \includegraphics[scale = 0.5]{hinh73}
+ \bigbreak
+ - The single data input line I is connected to all 8 AND gates, but only one of these gates will be enabled by the SELECT input lines. For each SELECT code the demultiplexer will decides which output will be distributed. \\
+ \includegraphics[scale = 0.6]{hinh74}
+ \bigbreak
 
 
 
@@ -804,7 +863,11 @@ TTL 74ALS160, 74ALS161, 74ALS162, and 74ALS163 and their CMOS equivalents, 74HC1
 
 
 
-\subsection{}
+
+
+
+
+
 
 
 \section{Fuzzy Logic}
